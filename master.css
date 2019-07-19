@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch:700|Patrick+Hand+SC|Waiting+for+the+Sunrise');
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+@import url('https://fonts.googleapis.com/css?family=BioRhyme+Expanded');
+@import url('https://fonts.googleapis.com/css?family=Syncopate');
+*{
+  font-family: 'Patrick Hand SC';
+  padding: 0;
+  margin: 0;
+}
+h1, h3{
+  text-transform: uppercase;
+  text-align:center;
+}
+body{
+  background: #263238;
+  color: white;
+}
+h1{
+  margin-top: 3vh;
+  font-size: 10vh;
+  font-family: Rammetto One;
+}
+h3{
+  font-size: 8vh;
+ font-family: 'Syncopate', sans-serif;
+}
+
+#custom-button {
+  padding: 10px;
+  color: white;
+  background-color: #009578;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#custom-button:hover {
+  background-color: #00b28f;
+}
+
+#custom-text {
+  margin-left: 10px;
+  font-family: sans-serif;
+  color: #aaa;
+}
+img{
+  margin-top: 12vh;
+  /* width: 400px;
+  height: 400px; */
+}
+
+p{
+  /* font-family: 'Gugi', cursive; */
+  font-family: 'Nunito', sans-serif;
+  box-sizing: border-box;
+  border: 3px solid yellowgreen;
+  padding: 5px;
+  text-align: center;
+  width: 40vw;
+  margin: 0 auto;
+  margin-top: -16vh;
+  background: white;
+  color: black;
+  border-radius: 5px;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+}
+.footer h5{
+  font-size: 12px;
+  font-family: monospace;
+  border-radius: 0 5px 5px 0;
+  padding: 10px;
+  background: black;
+  color: white;
+  /* width: 100vw; */
+  bottom: 0;
+  text-align: center;
+}
